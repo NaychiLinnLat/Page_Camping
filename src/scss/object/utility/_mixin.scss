@@ -1,0 +1,14 @@
+@mixin archivoFont($weight:500){
+    font-family: "Archivo", sans-serif;
+    font-weight: $weight;
+}
+
+@mixin roboroFont($weight:500){
+    font-family: "Roboto", sans-serif;
+    font-weight: $weight;
+}
+
+@mixin archivoBlack($weight:500){
+    font-family: "ArchivoBlack",sans-serif;
+    font-weight: $weight;
+}

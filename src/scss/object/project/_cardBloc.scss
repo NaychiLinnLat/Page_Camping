@@ -1,0 +1,40 @@
+.p-box--card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -130px 0 80px;
+    .card-box{
+        width: calc(100% / 4 - 15px);
+        border-radius: 20px;
+        margin-right: 20px;
+        background: $whitecolor;
+
+        &:last-child{
+            margin-right: 0;
+        }
+
+    &__inner{
+        padding: 40px 20px;
+    }
+    .img-box {
+        img{
+            max-width: 100%;
+            width: auto;
+            margin: 0 auto;
+        }
+    }
+
+    .txt-box{
+        text-align: center;
+        h3{
+            @include archivoBlack(900);
+            font-size: 18px;
+            line-height: 28px;
+        }
+        p{
+            @include roboroFont(300);
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
+}

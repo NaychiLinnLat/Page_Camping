@@ -1,0 +1,37 @@
+.l-header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    &__layout{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        display: flex;
+        justify-content: flex-start;
+        width: 60%;
+        h1{
+            margin-right: 20px;
+        }
+    }
+    &__menu{
+        
+        ul{
+            display: flex;
+            padding: 16px 0;
+            li{
+                a{
+                    @include roboroFont(300);
+                    font-size: 16px;
+                    color: $whitecolor;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+&__reg{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+}

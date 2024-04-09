@@ -1,22 +1,21 @@
-/* normalize.css
------------------------- */
-@import 'normalize.css/normalize.css';
+@import "object/utility/mixin";
+//foundation
+@import "foundation/font";
+@import "foundation/reset";
+@import "foundation/base";
+@import "foundation/setting";
 
-/* ==========================================================================
-  Foundation
-========================================================================== */
+//layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/layout";
 
-/* ==========================================================================
-  Foundation
-========================================================================== */
+//object
+@import "object/component/title";
+@import "object/component/btn";
 
-/* ==========================================================================
-  Project
-========================================================================== */
+@import "object/project/cardBloc";
+@import "object/project/mainvisual";
+@import "object/project/card-service";
+@import "object/project/form";
 
-/* ==========================================================================
-  Component
-========================================================================== */
-h1 {
-  color: #f00;
-}

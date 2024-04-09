@@ -1,0 +1,49 @@
+.c-btn{
+    width: 100%;
+    
+    a{
+        @include roboroFont(400);
+        font-size: 18px;
+        display: block;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+        border: 1px solid $whitecolor;
+        border-radius: 25px;
+        padding: 11px 0;
+        color: $whitecolor;
+    }
+
+    &--signup{
+        margin-right: 20px;
+    }
+
+    &--discover{
+        max-width: 205px;
+        padding-left: 33.33%;
+        a{
+            background: $btncolor;
+            border: 1px solid $btncolor;
+        }
+    }
+    &--more {
+        max-width: 185px;
+        padding-left: 21px;
+    
+        a {
+          background: #8D8D8D;
+          border: none;
+          color: $whitecolor;
+        }
+      }
+    
+      &--view {
+        max-width: 205px;
+        padding-left: 40%;
+        a {
+          background: transparent;
+          color: $btncolor;
+          border: 1px solid $btncolor;
+        }
+      }
+}
